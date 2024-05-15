@@ -1,0 +1,32 @@
+.container{
+  background-color: var(--bgSoft);
+  padding: 1.25em;
+  border-radius: 10px;
+  display: flex;
+  gap: 1.25em;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container:hover{
+  background-color: var(--btnLight);
+}
+
+.texts{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+
+.total{
+  font-size: 0.875em;
+  font-weight: 300;
+}
+
+.positive{
+  color: var(--done);
+}
+
+.negative{
+  color: var(--cancelled);
+}

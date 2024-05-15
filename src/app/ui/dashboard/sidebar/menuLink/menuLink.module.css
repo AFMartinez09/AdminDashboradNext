@@ -1,0 +1,17 @@
+.container{
+  padding: 1.25em;
+  display: flex;
+  align-items: center;
+  gap: 0.625em;
+  border-radius: 10px;
+  margin: 0.625em 0;
+}
+
+.container:hover{
+  background-color: var(--bg);
+  transition: 0.24s;
+}
+
+.active{
+  background-color: var(--btnDark);
+}
